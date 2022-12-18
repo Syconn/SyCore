@@ -1,0 +1,28 @@
+modLoader="javafml" #mandatory
+loaderVersion="[40,)"
+license="All rights reserved"
+
+
+
+[[mods]] #mandatory
+modId="sycore" #mandatory
+version="0.1.0" #mandatory
+displayName="SyCore" #mandatory
+#logoFile="examplemod.png" #optional
+#credits="Syconn" #optional
+authors="Syconn" #optional
+description=''''''
+
+[[dependencies.sycore]] #optional
+    modId="forge" #mandatory
+    mandatory=true #mandatory
+    versionRange="[40,)" #mandatory
+    ordering="NONE"
+    side="BOTH"
+# Here's another dependency
+[[dependencies.sycore]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.18.2,1.19)"
+    ordering="NONE"
+    side="BOTH"
